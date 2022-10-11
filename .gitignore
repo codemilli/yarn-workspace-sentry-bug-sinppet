@@ -8,9 +8,16 @@
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Next.js build output
+.next
+out
 
 # production
 /build
@@ -33,4 +40,11 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+packages/mobile/next-env.d.ts
+
+# IDE
+/.idea/misc.xml
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/pnp-nextjs-sentry.iml
+/.idea/vcs.xml
